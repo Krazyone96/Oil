@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Milk Regulations Quiz</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+		
+	<!--Play Quiz button -->
+	
+	<div class="play_btn"><button>Play Quiz</button></div> 
+	
+	<!-- No of Q-->
+	
+	<div class="dropdown_box">
+		<div class="dropdown">	
+			<select id ="NoQ">
+				<option value=0>Choose Number of Questions</option>
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+			</select>
+		</div>
+	</div>
+
+	<!--start Quiz button -->
+	
+	<div class="start_btn">
+		<div class="start">
+		<button>Start Quiz</button>
+		</div>
+	</div>
+	
+	<!-- Info Box-->
+	
+	<div class="dropdown_box">
+		<div class="dropdown">	
+			<select id ="NoQ">
+				<option value=0>Choose Number of Questions</option>
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+			</select>
+		</div>
+	</div>
+	
+	<div class="error_btn">
+	<span id="error"></span>
+	</div>
+	
+	<div class="ready_btn">
+		<div class="ready">
+		<button>Ready</button>
+		</div>
+	</div>
+	<p id="Error-Name"></p>
+	<div class="q_btn">
+		<div class="ques">
+	<button onclick="chooseNoQ()"> Done</button>
+	</div>
+	</div>
+	
+	<div class="info_box">
+		
+		<div class="info-title"><span>------RULES------</span></div>
+		
+		<div class="info-list">
+			<div class="info"><p></p></div>
+			<div class="info">1. The time limit for each question is <span>15 seconds</span></div>
+			<div class="info"><p></p></div>
+			<div class="info">2. Choose the right option</div>
+			<div class="info"><p></p></div>
+			<div class="info">3.You cannot change your answer after selection</div>
+			<div class="info"><p></p></div>
+			<div class="info">4. Click on 'Next Question' to view the next question.</div>
+			<div class="info"><p></p></div>
+			<div class="info">5. Click on 'Finish Quiz' to stop the quiz at any question.</div>	
+		</div>
+	
+	
+		<div class="buttons">
+			<button class="quit">Exit Quiz</button>
+			<button class="restart">Continue</button>
+		</div>
+		
+	</div>
+	
+	<!-- Quiz Box-->
+	
+	<div class="quiz_box">
+	
+		<header>
+			<div class="title">Milk Regulations Quiz</div>
+			<div class="timer">
+				<div class="time_left_txt">Time Left</div>
+				<div class="timer_sec">15</div>
+			</div>
+			<div class="time_line"></div>
+		</header>
+		
+		<section>
+		
+			<div class="que_text">
+			
+				<!-- The questions from JavaScript are inserted here -->
+				
+			</div>
+			
+			<div class="option_list">
+			
+				<!-- The options from JavaScript are inserted here -->
+				
+			</div>
+			
+		</section>
+		
+		<!-- footer of Quiz Box -->
+		
+		<footer>
+			<div class="total_que">
+				
+				<!-- The Question Count Number from JavaScript is inserted here -->
+				
+			</div>
+			
+			<button class="next_btn">Next Question</button>
+			<button class="finish_btn">Finish Quiz</button>
+		</footer>
+		
+	</div>
+	
+	<!-- Result Box -->
+	
+		<div class="result_box">
+			<div class="icon">
+				<i class="fas fa-crown"></i>
+			</div>
+			
+			<div class="complete_text">You've completed the Quiz!</div>
+			<div class="score_text">
+				<!-- The Score Result from JavaScript is inserted here -->
+			</div>
+			<div class="buttons">
+				<button class="restart">Replay Quiz</button>
+				<button class="quit">Quit Quiz</button>
+			</div>
+		</div>
+		
+		<!-- The questions and options is inserted in this JavaScript file -->
+		 <script src="questions.js"></script> 
+		
+		
+		<!-- All Quiz codes are inserted in this JavaScript file -->
+		<script src="script.js"></script>
+		
+</body>
+</html>
