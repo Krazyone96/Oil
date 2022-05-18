@@ -196,6 +196,32 @@ let data = [
 	]
 	},
 	
+	{
+	numb: 16,
+	question: "_____ means an emulsion of oils and fats in water",
+	answer: "Margarine",
+	options: [
+		"Lard",
+		"Margarine",
+		"Milk",
+		"Cream",
+		"None of the above"
+	]
+	},
+
+	{
+	numb: 17,
+	question: "Margarine is a/an __________",
+	answer: "Emulsion",
+	options: [
+		"Suspension",
+		"Emulsion",
+		"Colloid",
+		"Solution",
+		"None of the above"
+	]
+	},
+	
 
 ];
 
