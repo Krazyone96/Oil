@@ -68,7 +68,7 @@ let data = [
 
 	{
 	numb: 6,
-	question: "Refinig means a process by which an expressed vegetable oil or a solvent extracted oil is deacidified by ______",
+	question: "Refining means a process by which an expressed vegetable oil or a solvent extracted oil is deacidified by ______",
 	answer: "All the above",
 	options: [
 		"alkali",
